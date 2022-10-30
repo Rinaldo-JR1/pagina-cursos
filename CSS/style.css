@@ -18,13 +18,9 @@ footer {
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .carousel-caption {
         display: none;
     }
-}
-
-/* Link */
-/* .navbar-nav .nav-item a {
-    margin-left: calc(210px - 10%);
 } */
+
