@@ -28,12 +28,6 @@ footer {
     margin-top: 5%;
 }
 
-/* .vasco {
-    display: none;
+.footer-rigth {
+    text-align: right;
 }
-@media (max-width:575px){
-    .vasco{
-        display: flex;
-        
-    }
-} */
