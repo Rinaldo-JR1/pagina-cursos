@@ -4,15 +4,8 @@
     border-radius: 0;
 }
 
-
-footer {
-    background-color: #f2f2f2;
-    padding: 25px;
-}
-
 .carousel-inner img {
     width: 100%;
-
     margin: auto;
     min-height: 200px;
 }
@@ -31,6 +24,7 @@ footer {
 footer {
     background-color: #421e5e;
     color: white;
+    padding: 25px;
     height: calc(100% + 25px);
 }
 
@@ -45,6 +39,21 @@ footer {
     left: -15px;
 }
 
-.teste{
+.teste {
     display: none;
+}
+
+@media (max-width: 600px) {
+    .teste {
+        display: flex;
+    }
+
+    .vasco {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+    }
+    #myCarousel{
+        display: none;
+    }
 }
