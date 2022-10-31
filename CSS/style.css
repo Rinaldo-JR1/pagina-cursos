@@ -4,7 +4,7 @@
     border-radius: 0;
 }
 
-/* Add a gray background color and some padding to the footer */
+
 footer {
     background-color: #f2f2f2;
     padding: 25px;
@@ -12,12 +12,12 @@ footer {
 
 .carousel-inner img {
     width: 100%;
-    /* Set width to 100% */
+
     margin: auto;
     min-height: 200px;
 }
 
-/* Hide the carousel text when the screen is less than 600 pixels wide */
+
 @media (max-width: 600px) {
     .carousel-caption {
         display: none;
@@ -28,6 +28,23 @@ footer {
     margin-top: 5%;
 }
 
-.footer-rigth {
-    text-align: right;
+footer {
+    background-color: #421e5e;
+    color: white;
+    height: calc(100% + 25px);
+}
+
+/* Botão comprar */
+.about-product .container .row .row .col-sm-12 a {
+    width: calc(80% - 60px) !important;
+}
+
+/* Imagem do carrinho no botão comprar */
+.about-product .btn-success img {
+    position: relative;
+    left: -15px;
+}
+
+.teste{
+    display: none;
 }
