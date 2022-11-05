@@ -47,6 +47,10 @@ footer {
     .teste {
         display: flex;
     }
+    .teste :nth-child(0){
+        display: flex;
+        margin-top: 40px;
+    }
 
     .vasco {
         width: 100%;
@@ -70,5 +74,7 @@ footer {
 
 /* Link */
 .navbar .container-fluid #navbarNav .navbar-nav .nav-item a {
-    margin-bottom: 40% !important;
+    margin-bottom: 27% !important;
+    margin-left: 30px;
+    color: white;
 }
