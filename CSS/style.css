@@ -10,13 +10,6 @@
     min-height: 200px;
 }
 
-
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none;
-    }
-}
-
 .about-product {
     margin-top: 5%;
 }
@@ -59,6 +52,7 @@ footer {
     }
 
     #myCarousel {
+
         display: none;
     }
 }
