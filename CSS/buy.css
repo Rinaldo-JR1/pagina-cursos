@@ -1,4 +1,8 @@
 /* Image */
+* {
+    font-family: Helvetica;
+}
+
 .row:nth-child(3) img {
     margin-left: 35px;
 }

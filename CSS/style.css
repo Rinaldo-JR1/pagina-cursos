@@ -1,4 +1,7 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
+* {
+    font-family: Helvetica;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -23,13 +26,14 @@ footer {
 
 /* Botão comprar */
 .about-product .container .row .row .col-sm-12 a {
-    width: calc(80% - 60px) !important;
+    width: calc(50% - 60px) !important;
+    text-align: center IM !important;
 }
 
-/* Imagem do carrinho no botão comprar */
 .about-product .btn-success img {
-    position: relative;
-    left: -15px;
+    position: relative !important;
+    margin-right: 30px !important;
+    text-align: center !important;
 }
 
 .teste {
@@ -40,7 +44,8 @@ footer {
     .teste {
         display: flex;
     }
-    .teste :nth-child(0){
+
+    .teste :nth-child(0) {
         display: flex;
         margin-top: 40px;
     }
@@ -71,4 +76,17 @@ footer {
     margin-bottom: 27% !important;
     margin-left: 30px;
     color: white;
+}
+
+
+/*Botãa login*/
+
+.navbar .text-white {
+    margin-top: -2px;
+}
+
+
+
+.container-fluid a {
+    color: honeydew;
 }
