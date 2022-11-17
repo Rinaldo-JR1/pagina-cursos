@@ -27,7 +27,7 @@ footer {
 /* Botão comprar */
 .about-product .container .row .row .col-sm-12 a {
     width: calc(50% - 60px) !important;
-    text-align: center IM !important;
+    text-align: center !important;
 }
 
 .about-product .btn-success img {
@@ -75,18 +75,10 @@ footer {
 .navbar .container-fluid #navbarNav .navbar-nav .nav-item a {
     margin-bottom: 27% !important;
     margin-left: 30px;
-    color: white;
 }
 
-
-/*Botãa login*/
+/*Botão login*/
 
 .navbar .text-white {
     margin-top: -2px;
-}
-
-
-
-.container-fluid a {
-    color: honeydew;
 }
