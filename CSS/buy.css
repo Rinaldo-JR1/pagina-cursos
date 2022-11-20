@@ -3,6 +3,33 @@
     font-family: Helvetica;
 }
 
-.row:nth-child(3) img {
-    margin-left: 35px;
+/* Paragraph */
+.row p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+/* Paragraph */
+.row p:nth-child(2) {
+    text-decoration: line-through;
+    color: #e00000 !important;
+}
+
+.anuncio {
+    background: #2C064A;
+}
+
+/* Paragraph */
+.anuncio p {
+    color: #ffe20a !important;
+}
+
+.anuncio a {
+    margin-left: 50%;
+    margin-right: 50%;
+    
 }
