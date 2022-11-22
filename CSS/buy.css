@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 * {
-    font-family: Inter, 'Helvetica Neue', Helvetica, Arial;
+    font-family: Inter;
+}
+
+footer a {
+    font-family: Helvetica, Arial, sans-serif !important;
+}
+
+footer p {
+    font-family: Helvetica, Arial, sans-serif !important;
 }
 
 .row p {
@@ -12,7 +20,7 @@
 
 .anuncio {
     background: black;
-
+    font-family: Inter, 'Helvetica Neue', Helvetica, Arial !important;
 }
 
 .anuncio p {
