@@ -82,3 +82,16 @@ footer {
 .navbar .text-white {
     margin-top: -2px;
 }
+.botaoComprar {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: green;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    justify-content: center;
+}
