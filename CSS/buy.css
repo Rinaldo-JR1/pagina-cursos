@@ -1,9 +1,7 @@
-/* Image */
 * {
     font-family: Helvetica;
 }
 
-/* Paragraph */
 .row p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 20px;
@@ -11,25 +9,45 @@
     text-align: center;
 }
 
-
-
-/* Paragraph */
-.row p:nth-child(2) {
-    text-decoration: line-through;
-    color: #e00000 !important;
-}
-
 .anuncio {
-    background: #2C064A;
+    background: black;
 }
 
-/* Paragraph */
 .anuncio p {
-    color: #ffe20a !important;
+    color: white !important;
 }
 
 .anuncio a {
     margin-left: 50%;
     margin-right: 50%;
-    
+}
+
+/* Paragraph */
+.anuncio p:nth-child(6) {
+    color: #4fff19 !important;
+}
+
+
+.anuncio .center p:nth-child(4) {
+    text-decoration: line-through;
+    color: #e00000 !important;
+}
+
+.botaoComprar {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: green;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: flexbox;
+    justify-content: center;
+}
+
+.botaoComprar:hover {
+    color: white;
+
 }
