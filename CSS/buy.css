@@ -4,6 +4,19 @@
     font-family: Inter;
 }
 
+/* Nav link */
+.navbar .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
+    font-family: Helvetica !important;
+}
+/* Nav link */
+.navbar .nav-link{
+    font-family:Helvetica;
+   }
+/* Nav link */
+.navbar-nav .nav-item .nav-link {
+    font-family: Helvetica !important;
+}
+
 footer a {
     font-family: Helvetica, Arial, sans-serif !important;
 }
