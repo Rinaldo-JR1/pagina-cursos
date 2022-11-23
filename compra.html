@@ -34,58 +34,75 @@
         </div>
     </nav>
     <form>
-        <section class="cartao">
+        <section class="cartao mt-2">
             <div class="row">
                 <h3>Area do cartão</h3>
                 <div class="col-sm-3">
                     <p>Numero do cartão: </p>
-                    <input type="text" id="nCartao" maxlength="16" class="form-control" required>
+                    <input type="text" id="nCartao" maxlength="16" class="form-control" minlength="16" required>
                 </div>
                 <div class="col-sm-1">
                     <p>CVV</p>
-                    <input type="text" id="CVV" maxlength="3" class="form-control" required>
+                    <input type="text" id="CVV" maxlength="3" class="form-control" minlength="3" required>
                 </div>
                 <div class="col-sm-4">
                     <p>Data de vencimento</p>
-                    <input type="date" id="CVV" class="form-control" required>
+                    <input type="date" id="dataVenc" class="form-control" required>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-3">
                     <p>Parcelas</p>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected style="display: none;">Selecione a quantidade de parcelas</option>
+                    <select class="form-select" id="parcelas" aria-label="Default select example" required>
+                        <option selected style="display: none;" value="">Selecione a quantidade de parcelas</option>
                         <option value="1">1X - 899,90</option>
-                        <option value="2">2x - 449,95</option>
-                        <option value="3">3x - 299,96</option>
-                        <option value="4">4x - 224,97</option>
-                        <option value="5">5x - 179,98</option>
-                        <option value="6">6x - 149,98</option>
-                        <option value="7">7x - 149,98</option>
+                        <option value="2">2X - 449,95</option>
+                        <option value="3">3X - 299,96</option>
+                        <option value="4">4X - 224,97</option>
+                        <option value="5">5X - 179,98</option>
+                        <option value="6">6X - 149,98</option>
+                        <option value="7">7X - 149,98</option>
+                        <option value="8">8X - 149,98</option>
+                        <option value="9">9X - 149,98</option>
+                        <option value="10">10X - 89,99</option>
+                        <option value="11">11X - 81,80</option>
+                        <option value="12">12X - 74,99</option>
                     </select>
                 </div>
             </div>
+
+
+
         </section>
         <section class="pessoal mt-4">
             <div class="row">
-
                 <h3>Dados pessoais</h3>
                 <div class="col-sm-4">
-                    <p>Digite o seu nome: </p>
+                    <p>Digite o seu nome completo: </p>
                     <input type="text" id="nome" class="form-control" required>
                 </div>
                 <div class="col-sm-4">
-                    <p>Digite a senha da plataforma: </p>
-                    <input type="text" id="senha" class="form-control" required>
+                    <p>Data de nascimento</p>
+                    <input type="date" id="dataNasc" class="form-control" required>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-4">
                     <p>Digite o seu e-mail</p>
                     <input type="text" id="email" class="form-control" required>
                 </div>
             </div>
+            <div class="userCard">
+                <div class="row">
+                    <div class="col-sm-3 centro mt-5">
+                        <p>Digite o usuario da plataforma: </p>
+                        <input type="text" id="user" class="form-control" maxlength="12" minlength="8" required>
+                    </div>
+                    <div class="col-sm-12"></div>
+                    <div class="col-sm-3 centro">
+                        <p>Digite a senha da plataforma: </p>
+                        <input type="text" id="senha" class="form-control" maxlength="12" minlength="8" required>
+                    </div>
+                </div>
+            </div>
         </section>
-
-        <button id="btnFinalizar">Finalizar</button>
+        <button id="btnFinalizar" class="mt-4 centro">Finalizar</button>
     </form>
 </body>
 <script src="./script/script.js"></script>

@@ -15,25 +15,24 @@
 <body>
   <div class="center">
     <h1>Login</h1>
-    <form method="post">
+    <form>
       <div class="txt_field">
-        <input type="text" required>
+        <input type="text" id="usuario" required>
         <span></span>
         <label>Usuario</label>
       </div>
       <div class="txt_field">
-        <input type="password" required>
+        <input type="password" id="senha" required>
         <span></span>
         <label>Senha</label>
       </div>
-      <!-- <div class="pass">Esqueceu a senha?</div> -->
-      <input type="submit" value="Login">
+      <button id="enviar" class="button-send">Login</button>
       <div class="signup_link">
         Não é um membro ? <a href="./index.html">Criar conta</a>
       </div>
     </form>
   </div>
-
+  <script src="./script/login.js"></script>
 </body>
 
 </html>

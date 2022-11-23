@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-/* * {
-    font-family: Inter;
-} */
+.cartao,
+.pessoal,
+#btnFinalizar,
+.usuario {
+    margin-left: 3%;
+}
+
+.centro {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
