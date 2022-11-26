@@ -21,7 +21,7 @@ document.getElementById("btnFinalizar").addEventListener("click", () => {
     nome,
     senha,
     email,
-    user == "" || senha.length < 8)
+    user == "" || senha.length < 8 || user.length < 8)
   ) {
     return;
   } else {
