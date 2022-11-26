@@ -12,7 +12,15 @@ document.getElementById("btnFinalizar").addEventListener("click", () => {
   const user = document.getElementById("user").value;
 
   if (
-    (nCartao, CVV, dataNasc, dataVenc, parcelas, nome, senha, email, user == "")
+    (nCartao,
+    CVV,
+    dataNasc,
+    dataVenc,
+    parcelas,
+    nome,
+    senha,
+    email,
+    user == "" || senha.length < 8)
   ) {
   } else {
     sendDb(

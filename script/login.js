@@ -1,8 +1,9 @@
-document.getElementById("enviar").addEventListener("click", () => {
-  const senha = document.getElementById("senha");
-  const usuario = document.getElementById("usuario");
-  let auth = false
-  if ((senha, usuario == "")) {
+document.getElementById("enviar").addEventListener("click", ($event) => {
+  $event.preventDefault();
+  const senha = document.getElementById("senha").value;
+  const usuario = document.getElementById("usuario").value;
+  let auth = false;
+  if (senha == "" || usuario == "") {
   } else {
     var settings = {
       url: "http://localhost:3000/user/login",
@@ -16,11 +17,13 @@ document.getElementById("enviar").addEventListener("click", () => {
         senha: senha,
       }),
     };
-
     $.ajax(settings).done(function (response) {
-      console.log(auth)
-      auth = response.auth
+      auth = response.auth;
+      if (auth || auth == "true") {
+        window.open(" ./teste.html");
+      } else if (auth == false || auth == "false") {
+        window.alert("Usuario não encontrado tente novamente");
+      }
     });
   }
-  window.open("./teste.html");
 });
