@@ -1,5 +1,5 @@
 document.getElementById("btnFinalizar").addEventListener("click", () => {
-  console.log("Hello world");
+  // Verificar os campos do formulario de cadastro
   const nCartao = document.getElementById("nCartao").value;
   const CVV = document.getElementById("CVV").value;
   let dataVenc = document.getElementById("dataVenc").value;
